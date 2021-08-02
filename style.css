@@ -1,0 +1,79 @@
+
+h1{
+  color:black;
+  }
+  
+
+h2{
+  color:#ffa500;
+  }
+  
+
+body{ 
+  background-color: #ff7366;
+}
+
+@keyframes mymove {
+  from{padding-left:500px};
+ to {padding-right:500px};
+ }
+ 
+.header{
+  background-color:#f7cac9;  
+  display:flex;
+  justify-content:space-between ; 
+  animation-name:  mymove; 
+  animation-duration: 8s;
+}
+
+.header title{
+animation: mymove 4s linear infinite;
+}
+
+
+.work{
+  border: 2px solid;
+  border-radius: 50px;
+ display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+}
+
+  .art{
+    background-color:#383b47; 
+    border-radius: 30px;
+    width: 400px;
+  }
+
+  a:link{
+    color:blue;
+  }
+  
+  a:visited{
+  color: rgb(156, 19, 156);
+  }
+  
+  .Origami:hover p {
+    opacity: 1;
+  }
+  
+  .Origami:hover img {
+  opacity: 0.5;
+  }
+
+.con{
+background-color:#92a8d1; 
+border: 2px solid;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.od{
+  background-color: #00a170; 
+  border: 2px solid;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+  }
